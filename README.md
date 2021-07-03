@@ -1,5 +1,8 @@
 # TinyMCE + NextJS
 
+## Demo 
+[CodeSandbox](https://codesandbox.io/s/tinymce-nextjs-dwjfs)
+
 ## Install dependencies.
 
 ```bash
