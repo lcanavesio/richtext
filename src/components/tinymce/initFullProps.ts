@@ -24,7 +24,6 @@ const initFullProps = {
   browser_spellcheck: true,
   language: "en",
   language_url: "/tinymce/langs/es.js",
-  placeholder: "How can I make A4 pages like google docs?",
   paste_data_images: false,
   force_p_newlines: false,
   branding: false,

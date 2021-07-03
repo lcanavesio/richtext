@@ -3,7 +3,8 @@ import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import React from "react";
-import CustomEditor from "./tinymce/CustomEditor";
+import CustomEditor from "../tinymce/CustomEditor";
+import HeadEditor from "./HeadEditor";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -28,12 +29,13 @@ const AppBarEditor = () => {
         <AppBar position="static">
           <Toolbar>
             <Typography variant="h6" className={classes.title}>
-              TinyMCE + NextJS
+              TinyMCE "Google docs clone"
             </Typography>
           </Toolbar>
         </AppBar>
       </div>
       <div>
+        <HeadEditor />
         <CustomEditor />
       </div>
     </div>
