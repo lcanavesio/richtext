@@ -1,7 +1,7 @@
 # TinyMCE + NextJS
 
 ## Demo 
-[CodeSandbox](https://codesandbox.io/s/tinymce-nextjs-dwjfs)
+[CodeSandbox](https://codesandbox.io/s/tinymce-nextjs-tfefz)
 
 ## Install dependencies.
 
